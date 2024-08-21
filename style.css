@@ -1,0 +1,53 @@
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    min-height: 100svh;
+    background: #212322;
+    font-family:Bungee Tint ;
+}
+.box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 700px;
+}
+.text{
+    position: absolute;
+    z-index: 1;
+    font-size: 54px;
+    text-shadow: 7px 7px 2px rgba(225, 225, 225, 1)
+    , 10px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: gold;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transform: translateX(250px);
+}
+.circle{
+    position: absolute;
+    border: 5px dotted red;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
